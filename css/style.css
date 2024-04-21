@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../Images/islamicwallpaper.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.main-section {
+    background-color: rgb(45, 59, 87);
+    width: 80vw;
+    height: 70vh;
+    border-radius: 50px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 65%;
+
+}
+
+.input-section div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(164, 193, 219);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px black;
+    color: black;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+span {
+    margin-left: 15px;
+}
+
+button {
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: green;
+    border: 2px solid black;
+    font-size: 20px;
+    letter-spacing: 5px;
+    box-shadow: 3px 3px 2px 1px black;
+    margin: 20px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.output-section {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.output-section .timings {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(164, 193, 219);
+    box-shadow: 3px 3px 4px 2px black;
+    color: black;
+}
+
+.timings h2 {
+    border-bottom: 2px solid black;
+}
+
+.validation {
+    border: 2px solid red;
+}

@@ -1,0 +1,116 @@
+@media(max-width:1162px) {
+    .main-section {
+        width: 90vw;
+        height: 80vh;
+    }
+}
+
+@media(max-width:1070px) {
+    .input-section {
+        width: 60%;
+    }
+
+    label,
+    input {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .output-section {
+        width: 40%;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .output-section .timings {
+        padding: 20px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:920px) {
+    .main-section {
+        flex-direction: column;
+        padding: 20px 30px;
+        height: 90vh;
+    }
+
+    .input-section {
+        width: 100%;
+        height: 55%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .input-section div {
+        width: 48%;
+        margin: 0 5px;
+    }
+
+    .input-section h1 {
+        width: 100%;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    input {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+    button {
+        margin: 0;
+    }
+
+    .output-section {
+        width: 100%;
+        height: 45%;
+    }
+}
+
+@media(max-width:762px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .input-section div {
+        padding: 5px;
+    }
+
+    .input-section div {
+        width: 100%;
+    }
+}
+
+@media(max-width:430px) {
+    .main-section {
+        padding: 20px 12px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
