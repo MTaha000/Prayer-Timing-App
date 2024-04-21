@@ -86,7 +86,27 @@
     .input-section div {
         width: 100%;
     }
+    button {
+        padding: 10px;
+    }
+    
+    footer {
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    
+    footer h4 {
+        font-size: 10px;
+    }
+    
+    footer .social-icons i {
+        font-size: 10px;
+        margin-left: 2px;
+    }
 }
+
+
 
 @media(max-width:430px) {
     .main-section {
