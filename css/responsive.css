@@ -1,11 +1,21 @@
 @media(max-width:1162px) {
     .main-section {
         width: 90vw;
-        height: 80vh;
+        height: 80%;
+    }
+
+    .title {
+        height: 10%;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 10%
     }
 }
 
 @media(max-width:1070px) {
+
     .input-section {
         width: 60%;
     }
@@ -19,23 +29,34 @@
         font-size: 25px;
     }
 
+    h2 {
+        font-size: 20px;
+    }
+
+    .display-details h2 span {
+        margin-left: 5px;
+    }
+
     .output-section {
         width: 40%;
-        align-items: center;
-        gap: 10px;
     }
 
     .output-section .timings {
         padding: 20px;
         justify-content: space-around;
     }
+
 }
 
 @media(max-width:920px) {
+    .title {
+        height: 5%;
+    }
+
     .main-section {
         flex-direction: column;
         padding: 20px 30px;
-        height: 90vh;
+        height: 85%;
     }
 
     .input-section {
@@ -44,6 +65,7 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+        overflow-y: scroll;
     }
 
     .input-section div {
@@ -66,17 +88,44 @@
 
     button {
         margin: 0;
+        padding: 12px;
     }
 
     .output-section {
         width: 100%;
         height: 45%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 0px;
     }
+
+    .timings {
+        width: 60% !important;
+    }
+
+    .display-details {
+        width: 40% !important;
+    }
+
+    footer {
+        height: 5%;
+    }
+
 }
 
 @media(max-width:762px) {
+    .title {
+        height: 5%;
+        margin-top: 2px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .input-section div {
@@ -86,20 +135,39 @@
     .input-section div {
         width: 100%;
     }
+
     button {
         padding: 10px;
+        margin: 10px 0;
     }
-    
+
+    .display-details h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .timings {
+        width: 63% !important;
+    }
+
+    .display-details {
+        width: 37% !important;
+    }
+
     footer {
         flex-direction: column;
         gap: 5px;
         margin-top: 5px;
+        height: 10%;
     }
-    
+
     footer h4 {
         font-size: 10px;
     }
-    
+
     footer .social-icons i {
         font-size: 10px;
         margin-left: 2px;
@@ -111,6 +179,8 @@
 @media(max-width:430px) {
     .main-section {
         padding: 20px 12px;
+        height: 85%;
+        border-radius: 10px;
     }
 
     input {
@@ -122,15 +192,15 @@
     }
 
     button {
-        padding: 15px;
-        font-size: 17px;
+        padding: 8px;
+        font-size: 15px;
     }
 
     h2 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
