@@ -5,12 +5,8 @@
     }
 
     .title {
-        height: 10%;
+        height: 5%;
         margin-top: 10px;
-    }
-
-    footer {
-        height: 10%
     }
 }
 
@@ -86,7 +82,7 @@
         padding: 5px 8px;
     }
 
-    button {
+    .input-section button {
         margin: 0;
         padding: 12px;
     }
@@ -136,7 +132,7 @@
         width: 100%;
     }
 
-    button {
+    .input-section button {
         padding: 10px;
         margin: 10px 0;
     }
@@ -172,6 +168,15 @@
         font-size: 10px;
         margin-left: 2px;
     }
+
+    .error h1 {
+        font-size: 30px;
+    }
+
+    .error button {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
 }
 
 
@@ -191,7 +196,7 @@
         font-size: 14px;
     }
 
-    button {
+    .input-section button {
         padding: 8px;
         font-size: 15px;
     }
@@ -202,5 +207,16 @@
 
     h1 {
         font-size: 18px;
+    }
+
+    .error h1 {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .error button {
+        padding: 12px 15px;
+        font-size: 12px;
+        letter-spacing: 2px;
     }
 }

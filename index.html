@@ -20,23 +20,23 @@
             <h1>Date : <span class="date"></span></h1>
             <div class="country-box">
                 <label for="country">Country :</label>
-                <input type="text" name="country" id="country">
+                <input type="text" name="country" id="country" placeholder="Enter a Country">
             </div>
             <div class="city-box">
                 <label for="city">City :</label>
-                <input type="text" name="city" id="city">
+                <input type="text" name="city" id="city" placeholder="Enter a City">
             </div>
             <div class="year-box">
                 <label for="year">Year :</label>
-                <input type="number" name="year" id="year">
+                <input type="number" name="year" id="year" placeholder="Enter a Year">
             </div>
             <div class="month-box">
                 <label for="month">Month :</label>
-                <input type="number" name="month" id="month">
+                <input type="number" name="month" id="month" placeholder="Enter a Month">
             </div>
             <div class="day-box">
                 <label for="day">Day :</label>
-                <input type="number" name="day" id="day">
+                <input type="number" name="day" id="day" placeholder="Enter a Day">
             </div>
             <button onclick="dataSubmit()">SUBMIT</button>
         </div>
@@ -54,6 +54,10 @@
                 <h2>Isha : <span class="isha"></span></h2>
             </div>
         </div>
+    </div>
+    <div class="error">
+        <h1>Please Enter a Correct Data</h1>
+        <button onclick="location.reload()">Try Again</button>
     </div>
     <footer>
         <div class="social-icons">
