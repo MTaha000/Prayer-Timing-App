@@ -16,7 +16,9 @@
         width: 60%;
     }
 
-    label,
+    label{
+        font-size: 20px;
+    }
     input {
         font-size: 18px;
     }
@@ -79,7 +81,8 @@
 
     input {
         font-size: 15px;
-        padding: 5px 8px;
+        padding: 5px 15px;
+        width: 60%;
     }
 
     .input-section button {
@@ -123,9 +126,12 @@
     h2 {
         font-size: 18px;
     }
+    .main-section {
+        height: 80%;
+    }
 
     .input-section div {
-        padding: 5px;
+        padding: 7px;
     }
 
     .input-section div {
